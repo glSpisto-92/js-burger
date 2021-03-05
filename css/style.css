@@ -47,13 +47,18 @@ header img{
   top: -10px;
 }
 
+input[type="checkbox"] {
+  background: #3d404e;
+  border: #7f83a2 1px solid;
+}
+
 /* main */
 .ingredient_list_1, .ingredient_list_2{
   list-style: none;
 }
 .ingredient_list_1 img, .ingredient_list_2 img{
   width: 70px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .ingredient_list_1 li, .ingredient_list_2 li{
   padding: 15px 0;
@@ -111,7 +116,7 @@ header img{
   outline: none;
 }
 #calculate:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 /* footer */
