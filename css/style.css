@@ -6,6 +6,7 @@
 
 body{
   background-color: #fff5e2;
+  font-family: 'Roboto', sans-serif
 }
 
 header{
@@ -23,6 +24,7 @@ footer {
 
 h1{
   padding: 30px 40px;
+  font-weight: bold;
 }
 
 h2{
@@ -32,6 +34,21 @@ h2{
 .wrapper{
   max-width: 850px;
 }
+
+/* header */
+header{
+  position: relative;
+}
+
+header img{
+  width: 150px;
+  position: absolute;
+  right: -40px;
+  top: -10px;
+}
+
+
+
 
 /* main */
 .ingredient_list{
