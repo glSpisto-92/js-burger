@@ -41,25 +41,57 @@ header{
 }
 
 header img{
-  width: 150px;
+  width: 160px;
   position: absolute;
   right: -40px;
   top: -10px;
 }
 
-
-
-
 /* main */
-.ingredient_list{
+.ingredient_list_1, .ingredient_list_2{
   list-style: none;
 }
-.ingredient_list li{
+.ingredient_list_1 img, .ingredient_list_2 img{
+  width: 70px;
+  margin-right: 10px;
+}
+.ingredient_list_1 li, .ingredient_list_2 li{
   padding: 15px 0;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.wrapper_ingredients{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 150px;
 }
 
 #name_burger{
   margin-bottom: 20px;
+  border: none;
+  font-size: 28px;
+}
+#name_burger:focus{
+  outline: none;
+}
+
+.coupon_container{
+  margin: 40px 0;
+}
+
+.coupon_container label{
+  font-weight: bold;
+}
+
+#coupons{
+  background: #fff5e2;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 500px;
+  font-weight: bold;
 }
 
 .calculate_content{
@@ -68,7 +100,18 @@ header img{
 }
 
 #calculate{
-  padding: 5px;
+  padding: 15px 20px;
+  background: #fdbb40;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  transition: transform 0.5s;
+}
+#calculate:focus{
+  outline: none;
+}
+#calculate:hover{
+  transform: scale(1.5);
 }
 
 /* footer */
