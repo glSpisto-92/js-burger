@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Burger Boolean</title>
+</head>
+<body>
+  <div class="wrapper">
+  <!-- titolo e immagine -->
+    <header>
+      <h1>Create Your Burger!</h1>
+    </header>
+  <!-- corpo della pagina/applicazione  -->
+    <main>
+      <!-- input nome panino -->
+      <input id="name_burger" type="text" name="" value="" placeholder="Inserisci nome panino">
+      <h2>Ingredients</h2>
+      <!-- checkbox ingredienti -->
+      <ul class="ingredient_list">
+        <li>
+          <label for="cheese"> Cheese
+            <input id="cheese" class="add-ingredient" type="checkbox" name="" value="" placeholder="">
+          </label>
+        </li>
+        <li>
+          <label for="egg"> Egg
+            <input id="egg" class="add-ingredient" type="checkbox" name="" value="">
+          </label>
+        </li>
+        <li>
+          <label for="mustard"> Mustard
+            <input id="mustard" class="add-ingredient" type="checkbox" name="" value="">
+          </label>
+        </li>
+        <li>
+          <label for="tomato"> Tomato
+            <input id="tomato" class="add-ingredient" type="checkbox" name="" value="">
+          </label>
+        </li>
+        <li>
+          <label for="lettuce"> Lettuce
+            <input id="lettuce" class="add-ingredient" type="checkbox" name="" value="">
+          </label>
+        </li>
+        <li>
+          <label for="ketchup"> Ketchup
+            <input id="ketchup" class="add-ingredient" type="checkbox" name="" value="">
+          </label>
+        </li>
+      </ul>
+      <!-- discount coupon -->
+      <div class="coupon_container">
+        <label for="coupons"></label> Coupon!
+        <input id="coupons" type="text" name="" value="" placeholder="Inserisci coupon">
+      </div>
+      <!-- button calculate -->
+      <div class="calculate_content">
+        <button id="calculate" type="button" name="button">Calculate!</button>
+      </div>
+    </main>
+
+
+  <!-- totale prezzo -->
+    <footer>
+      <!-- somma prezzi -->
+      <div class="">Your Price:</div><div id="totale" class="">50 Dracme</div>
+    </footer>
+  </div>
+
+  <!-- script javascript -->
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>

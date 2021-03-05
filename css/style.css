@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fff5e2;
+}
+
+header{
+  background-color: #fdbb40;
+}
+
+main {
+  padding: 40px;
+  background: #fff;
+}
+
+footer {
+  background-color: #d33359;
+}
+
+h1{
+  padding: 30px 40px;
+}
+
+h2{
+  padding: 10px 0;
+}
+/* mix */
+.wrapper{
+  max-width: 850px;
+}
+
+/* main */
+.ingredient_list{
+  list-style: none;
+}
+.ingredient_list li{
+  padding: 15px 0;
+}
+
+#name_burger{
+  margin-bottom: 20px;
+}
+
+.calculate_content{
+  text-align: center;
+  padding: 30px;
+}
+
+#calculate{
+  padding: 5px;
+}
+
+/* footer */
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+}
